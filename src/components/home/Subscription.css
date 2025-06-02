@@ -1,0 +1,56 @@
+.subscription-container {
+  background-color: #009AF9;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  font-family: 'mosvita', sans-serif;
+}
+
+.subscription-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subscription-description {
+  font-size: 1.1rem;
+  margin: 0 auto 20px;
+  max-width: 600px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.subscription-input-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.subscription-input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.subscription-button {
+  padding: 10px 20px;
+  background-color: white;
+  color: #009AF9;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.subscription-button:hover {
+  background-color: #f0f0f0;
+}
+
+.subscription-privacy {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}

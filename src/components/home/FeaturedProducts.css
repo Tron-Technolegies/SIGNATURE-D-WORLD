@@ -1,0 +1,124 @@
+.featured-products {
+  padding: 5vw 8vw;
+  text-align: center;
+  font-family: mosvita-bold, sans-serif;
+}
+
+.featured-products h2 {
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  margin-bottom: 1rem;
+}
+
+.featured-products p {
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: clamp(0.9rem, 3vw, 1rem);
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: clamp(1rem, 2vw, 1.5rem);
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .products-grid {
+    grid-template-columns: repeat(4, 1fr); 
+  }
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.product-card img {
+  width: 100%;
+  height: clamp(150px, 25vw, 200px);
+  object-fit: cover;
+}
+
+.product-info {
+  padding: clamp(0.8rem, 2vw, 1rem);
+  text-align: left;
+}
+
+.category {
+  color: #007bff;
+  font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+}
+
+.product-info h3 {
+  font-size: clamp(1rem, 3vw, 1.1rem);
+  margin: 0.3rem 0;
+}
+
+.price {
+  margin: 0.6rem 0;
+}
+
+.offer-price {
+  font-weight: bold;
+  color: #000;
+  margin-right: 0.6rem;
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
+}
+
+.real-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+}
+
+.product-info button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: clamp(0.5rem, 2vw, 0.6rem);
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+}
+
+.view-all {
+  background: transparent;
+  border: 1px solid #007bff;
+   font-family: mosvita-bold, sans-serif;
+  padding: clamp(0.5rem, 2vw, 0.6rem) clamp(1rem, 3vw, 1.2rem);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+}
+
+@media (max-width: 768px) {
+  .products-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .product-card img {
+    height: clamp(120px, 30vw, 150px);
+  }
+}
+
+@media (max-width: 480px) {
+  .featured-products {
+    padding: 1rem;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-card img {
+    height: clamp(100px, 40vw, 120px);
+  }
+
+  .product-info {
+    padding: 0.5rem;
+  }
+ 
+}

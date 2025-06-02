@@ -1,0 +1,133 @@
+const categories = [
+  {
+    id: 1,
+    name: "Household",
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 2,
+    name: "Crockery & Dinnerware",
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 3,
+    name: "Stationery",
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 4,
+    name: "Mobile Accessories",
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 5,
+    name: "Shoes & Footwear",
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 6,
+    name: "Fashion & Apparel",
+    image: "../public/categoryone.png",
+  },
+];
+
+const products = [
+  {
+    id: 1,
+    category: "Crockery & Dinnerware",
+    name: " Dinner Set",
+    price: 899,
+    originalPrice: 1000,
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 2,
+    category: "Mobile Accessories",
+    name: "Wireless Headphone",
+    price: 899,
+    originalPrice: 1000,
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 3,
+    category: "Stationery",
+    name: "Notebook Set",
+    price: 899,
+    originalPrice: 1000,
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 4,
+    category: "Shoes & Footwear",
+    name: "Running Shoes",
+    price: 699,
+    originalPrice: 1000,
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 5,
+    category: "Crockery & Dinnerware",
+    name: " Dinner Set",
+    price: 899,
+    originalPrice: 1000,
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 6,
+    category: "Mobile Accessories",
+    name: "Wireless Headphone",
+    price: 899,
+    originalPrice: 1000,
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 7,
+    category: "Stationery",
+    name: " Notebook Set",
+    price: 899,
+    originalPrice: 1000,
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 8,
+    category: "Shoes & Footwear",
+    name: " Running Shoes",
+    price: 699,
+    originalPrice: 1000,
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 9,
+    category: "Crockery & Dinnerware",
+    name: "Dinner Set",
+    price: 899,
+    originalPrice: 1000,
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 10,
+    category: "Mobile Accessories",
+    name: "Wireless Headphone",
+    price: 899,
+    originalPrice: 1000,
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 11,
+    category: "Stationery",
+    name: " Notebook Set",
+    price: 899,
+    originalPrice: 1000,
+    image: "../public/categoryone.png",
+  },
+  {
+    id: 12,
+    category: "Shoes & Footwear",
+    name: "Running Shoes",
+    price: 699,
+    originalPrice: 1000,
+    image: "../public/categoryone.png",
+  },
+];
+
+export { categories, products };

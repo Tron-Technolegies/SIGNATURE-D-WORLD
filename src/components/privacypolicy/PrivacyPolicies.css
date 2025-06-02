@@ -1,0 +1,95 @@
+.privacy-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: mosvita-bold, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.privacy-container h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.effective-date {
+  text-align: left;
+  font-style: italic;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.privacy-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.privacy-container h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.privacy-container strong {
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .privacy-container {
+    padding: 0 15px;
+    margin: 20px auto;
+  }
+
+  .privacy-container h1 {
+    font-size: 24px;
+  }
+
+  .privacy-container h2 {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .privacy-container p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .effective-date {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .privacy-container {
+    padding: 0 10px;
+  }
+
+  .privacy-container h1 {
+    font-size: 20px;
+  }
+
+  .privacy-container h2 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+
+  .privacy-container p {
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+
+  .effective-date {
+    font-size: 11px;
+    margin-bottom: 15px;
+  }
+}
