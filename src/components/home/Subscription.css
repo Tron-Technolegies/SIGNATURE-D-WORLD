@@ -1,23 +1,24 @@
 .subscription-container {
-  background-color: #009AF9;
-  padding: 40px;
+  background-color: #009af9;
+  padding: 40px 20px;
   text-align: center;
   color: white;
-  font-family: 'mosvita', sans-serif;
+  font-family: "mosvita", sans-serif;
 }
 
 .subscription-title {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 4vw, 2rem);
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .subscription-description {
-  font-size: 1.1rem;
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
   margin: 0 auto 20px;
   max-width: 600px;
   line-height: 1.5;
   font-weight: 500;
+  padding: 0 10px;
 }
 
 .subscription-input-container {
@@ -25,25 +26,32 @@
   justify-content: center;
   gap: 10px;
   margin-bottom: 15px;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
 
 .subscription-input {
-  padding: 10px;
-  width: 250px;
+  padding: 12px;
+  width: clamp(200px, 50vw, 300px);
   border: none;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  flex: 1;
+  min-width: 200px;
+  max-width: 350px;
 }
 
 .subscription-button {
-  padding: 10px 20px;
+  padding: 12px 20px;
   background-color: white;
-  color: #009AF9;
+  color: #009af9;
   border: none;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 2vw, 1rem);
   font-weight: bold;
   cursor: pointer;
+  white-space: nowrap;
+  min-width: 100px;
 }
 
 .subscription-button:hover {
@@ -51,6 +59,44 @@
 }
 
 .subscription-privacy {
-  font-size: 0.9rem;
+  font-size: clamp(0.8rem, 2vw, 0.9rem);
   opacity: 0.9;
+  padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .subscription-container {
+    padding: 30px 15px;
+  }
+
+  .subscription-input-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .subscription-input,
+  .subscription-button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .subscription-title {
+    margin-bottom: 15px;
+  }
+
+  .subscription-description {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .subscription-container {
+    padding: 25px 15px;
+  }
+
+  .subscription-input,
+  .subscription-button {
+    max-width: 280px;
+  }
 }

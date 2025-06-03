@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaRocket } from 'react-icons/fa';
-// import { FiLightbulb } from 'react-icons/fi';
+import { HiLightBulb } from "react-icons/hi";
 import "../../components/about/AboutHeader.css"; 
 
 const AboutHeader = () => {
@@ -38,7 +38,7 @@ const AboutHeader = () => {
             
             <div className="about-header__feature">
               <div className="about-header__icon-wrapper">
-                {/* <FiLightbulb size={20} /> */}
+                <HiLightBulb size={20} />
               </div>
               <div className="about-header__feature-content">
                 <h3 className="about-header__feature-title">Lorem Ipsum</h3>
