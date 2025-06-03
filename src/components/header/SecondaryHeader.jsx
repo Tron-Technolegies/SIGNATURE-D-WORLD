@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { FiSearch, FiMenu, FiX } from 'react-icons/fi';
 import './SecondaryHeader.css';
 import headerlogo from '../../../public/logos/header-logo.png';
 
 const SecondaryHeader = () => {
+  const navigate = useNavigate();
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -34,9 +35,17 @@ const SecondaryHeader = () => {
         </nav>
 
         {/* Desktop Search */}
-        <div className="search-bar desktop-search">
-          <span className="search-icon"><FiSearch size={16} /></span>
-          <input type="text" placeholder="Search for products" />
+        <div className="search-container desktop-search">
+          <div className="search-box">
+            <input
+              type="text"
+              placeholder="Search for products"
+              className="search-input"
+            />
+            <button className="search-button" onClick={() => navigate('/products')}>
+              <FiSearch size={16} />
+            </button>
+          </div>
         </div>
 
         {/* Mobile Hamburger Button */}
@@ -49,9 +58,15 @@ const SecondaryHeader = () => {
           <div className="mobile-menu">
             {/* Mobile Search */}
             <div className="mobile-search">
-              <div className="search-bar">
-                <span className="search-icon"><FiSearch size={16} /></span>
-                <input type="text" placeholder="Search for products" />
+              <div className="search-box">
+                <input
+                  type="text"
+                  placeholder="Search for products"
+                  className="search-input"
+                />
+                <button className="search-button">
+                  <FiSearch size={16} />
+                </button>
               </div>
             </div>
 

@@ -1,6 +1,7 @@
 import React, { use } from 'react';
 import "../../components/home/LandingSection.css";
 import { useNavigate } from 'react-router-dom';
+import { FaShoppingCart } from "react-icons/fa";
 
 const LandingSection = () => {
   const navigate = useNavigate();
@@ -14,7 +15,7 @@ const LandingSection = () => {
           Discover quality household items, stylish crockery, essential stationery, mobile accessories, and fashionable shoes - all in one place.
         </p>
         <button className="shop-now-button" onClick={() => navigate('/products')}>
-          <span className="button-icon">🛒</span> Shop Now
+          <span className="button-icon"><FaShoppingCart size={20} color='#1C37BF' /></span> Shop Now
         </button>
       </div>
     </div>

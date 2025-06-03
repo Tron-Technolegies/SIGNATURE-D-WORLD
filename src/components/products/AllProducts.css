@@ -8,7 +8,8 @@
 .all-products-container h2 {
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-left: 35px;
 }
 
 .products-grid {

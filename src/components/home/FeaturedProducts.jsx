@@ -2,8 +2,10 @@ import React from 'react';
 import { handleChatClick } from '../../utils/whatsApp';
 import featuredProducts from '../../utils/featuredProducts';
 import "../../components/home/FeaturedProducts.css";
+import { useNavigate } from 'react-router-dom';
 
 const FeaturedProducts = () => {
+  const navigate = useNavigate();
   return (
     <div className="featured-products">
       <h2>Featured Products</h2>
@@ -26,7 +28,7 @@ const FeaturedProducts = () => {
           </div>
         ))}
       </div>
-      <button className="view-all">VIEW ALL PRODUCTS</button>
+      <button className="view-all" onClick={() => navigate('/products')}>VIEW ALL PRODUCTS</button>
     </div>
   );
 };

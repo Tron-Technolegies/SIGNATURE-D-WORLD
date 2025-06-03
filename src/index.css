@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,21 +7,21 @@
 
 /*Mosvita normal Font*/
 @font-face {
-  font-family: 'mosvita';
-  src: url('./assets/fonts/MyFont.ttf') format('truetype');
+  font-family: "mosvita";
+  src: url("./assets/fonts/MyFont.ttf") format("truetype");
   font-weight: bolder;
   font-style: normal;
-  
 }
 
 /*Mosvita bold Font*/
-@font-face{
-  font-family : 'mosvita-bold';
-  src : url('./assets/fonts/Mosvita-Bold.ttf')
+@font-face {
+  font-family: "mosvita-bold";
+  src: url("./assets/fonts/Mosvita-Bold.ttf");
 }
 
 /*Brown Beige normal font*/
-@font-face{
-  font-family: 'brown-beige';
-  src : url('./assets/fonts/Brown\ Beige.ttf');
+@font-face {
+  font-family: "brown-beige";
+  src: url("./assets/fonts/Brown Beige.otf");
+  font-weight: normal;
 }

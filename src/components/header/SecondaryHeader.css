@@ -53,17 +53,19 @@
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
   position: relative;
   padding: 8px 16px;
+  border-radius: 20px;
 }
 
 .nav-links a:hover {
   color: #ddd;
+  transform: translateY(-1px);
 }
 
 .nav-links a.active {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #6CC7FF;
 }
 
 .desktop-search {
@@ -71,29 +73,49 @@
   align-items: center;
 }
 
-.search-bar {
+.search-box {
+  position: relative;
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 25px;
-  padding: 5px 15px;
+  padding: 2px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.search-bar .search-icon {
-  margin-right: 8px;
-  color: #666;
-}
-
-.search-bar input {
+.search-input {
+  background: transparent;
   border: none;
   outline: none;
+  padding: 10px 16px;
+  color: #fff;
   font-size: 14px;
-  color: #333;
   width: 200px;
+  border-radius: 25px;
 }
 
-.search-bar input::placeholder {
-  color: #999;
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-button {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.search-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
 }
 
 .hamburger-button {
@@ -152,9 +174,8 @@
   margin-bottom: 30px;
 }
 
-.mobile-search .search-bar {
-  background: rgba(255, 255, 255, 0.9);
-  width: 100%;
+.mobile-search .search-input {
+  width: 200px;
 }
 
 .mobile-nav {
@@ -187,7 +208,7 @@
 
 /* Responsive Design */
 @media (max-width: 968px) {
-  .search-bar input {
+  .search-input {
     width: 150px;
   }
 
@@ -231,12 +252,7 @@
     font-size: 18px;
   }
 
-  .mobile-search .search-bar {
-    max-width: 100%;
-  }
-
-  .mobile-search input {
-    font-size: 14px;
-    width: 100%;
+  .mobile-search .search-input {
+    width: 180px;
   }
 }

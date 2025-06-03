@@ -2,8 +2,10 @@ import React from 'react';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 import "../../components/footer/Footer.css";
 import footerlogo from "../../../public/logos/footerlogo_signature.png";
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -23,9 +25,9 @@ const Footer = () => {
         <div className="footer-section">
           <h2>Quick Link</h2>
           <ul>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li onClick={() => navigate('about')}>About us</li>
+            <li onClick={() => navigate('contact')} >Contact</li>
+            <li>FAQ</li>
           </ul>
         </div>
 
@@ -46,8 +48,8 @@ const Footer = () => {
           <h2>Customer Service</h2>
           <ul>
             <li><a href="#">Help Center</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
+            <li onClick={() => navigate('termsofservice')}>Privacy Policy</li>
+            <li onClick={() => navigate('privacypolicy')}>Terms of Service</li>
           </ul>
         </div>
       </div>

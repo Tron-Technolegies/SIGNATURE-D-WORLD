@@ -6,7 +6,7 @@ const ProductCategories = ({ onCategorySelect }) => {
   return (
     <div className="categories-container">
       <div className="categories-header">
-        <span>Home / Categories</span>
+        {/* <span>Home / Categories</span> */}
         <h2>Categories</h2>
       </div>
       <div className="categories-grid">

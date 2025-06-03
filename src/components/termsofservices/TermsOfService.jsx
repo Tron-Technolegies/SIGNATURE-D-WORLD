@@ -8,7 +8,7 @@ const TermsOfService = () => {
       <p className="effective-date">Effective: 01-05-2025</p>
 
       <p>
-        Welcome to [Your Website Name]! These Terms of Service ("Terms") govern your access to and use of our website,
+        Welcome to Signature D World These Terms of Service ("Terms") govern your access to and use of our website,
         products, and services ("Services"). By accessing or using our Services, you agree to be bound by these Terms.
       </p>
 

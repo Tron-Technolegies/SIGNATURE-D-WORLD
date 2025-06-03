@@ -8,7 +8,7 @@ const PrivacyPolicies = () => {
       <p className="effective-date">Effective: 01-05-2025</p>
 
       <p>
-        At [Your Website Name], accessible from [yourwebsite.com], one of our main priorities is the privacy of our visitors.
+        At Signature D World, accessible from www.signaturedworld.com, one of our main priorities is the privacy of our visitors.
         This Privacy Policy document contains types of information that is collected and recorded by [Your Website Name]
         and how we use it.
       </p>

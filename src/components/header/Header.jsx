@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FiSearch, FiMenu, FiX } from 'react-icons/fi';
 import './Header.css';
-
+import { useNavigate } from 'react-router-dom';
 const Header = () => {
+  const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -40,8 +41,8 @@ const Header = () => {
               placeholder="Search for products" 
               className="search-input"
             />
-            <button className="search-button">
-              <FiSearch size={16} />
+            <button className="search-button" onClick={() => navigate('/products')}>
+              <FiSearch size={16}  />
             </button>
           </div>
         </div>
