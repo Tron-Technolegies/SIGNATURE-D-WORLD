@@ -70,7 +70,7 @@ const products = [
     name: " Dinner Set",
     price: 899,
     originalPrice: 1000,
-    image: "../public/categoryone.png",
+    image: "/public/categoryone.png",
   },
   {
     id: 6,
@@ -78,7 +78,7 @@ const products = [
     name: "Wireless Headphone",
     price: 899,
     originalPrice: 1000,
-    image: "../public/categoryone.png",
+    image: "/public/categoryone.png",
   },
   {
     id: 7,
@@ -86,7 +86,7 @@ const products = [
     name: " Notebook Set",
     price: 899,
     originalPrice: 1000,
-    image: "../public/categoryone.png",
+    image: "/public/categoryone.png",
   },
   {
     id: 8,
@@ -94,7 +94,7 @@ const products = [
     name: " Running Shoes",
     price: 699,
     originalPrice: 1000,
-    image: "../public/categoryone.png",
+    image: "/public/categoryone.png",
   },
   {
     id: 9,
@@ -102,7 +102,7 @@ const products = [
     name: "Dinner Set",
     price: 899,
     originalPrice: 1000,
-    image: "../public/categoryone.png",
+    image: "/public/categoryone.png",
   },
   {
     id: 10,
@@ -110,7 +110,7 @@ const products = [
     name: "Wireless Headphone",
     price: 899,
     originalPrice: 1000,
-    image: "../public/categoryone.png",
+    image: "/public/categoryone.png",
   },
   {
     id: 11,
@@ -118,7 +118,7 @@ const products = [
     name: " Notebook Set",
     price: 899,
     originalPrice: 1000,
-    image: "../public/categoryone.png",
+    image: "/public/categoryone.png",
   },
   {
     id: 12,
@@ -126,7 +126,7 @@ const products = [
     name: "Running Shoes",
     price: 699,
     originalPrice: 1000,
-    image: "../public/categoryone.png",
+    image: "/public/categoryone.png",
   },
 ];
 
