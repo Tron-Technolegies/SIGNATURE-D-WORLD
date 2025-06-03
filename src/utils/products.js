@@ -2,32 +2,32 @@ const categories = [
   {
     id: 1,
     name: "Household",
-    image: "../public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 2,
     name: "Crockery & Dinnerware",
-    image: "../public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 3,
     name: "Stationery",
-    image: "../public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 4,
     name: "Mobile Accessories",
-    image: "../public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 5,
     name: "Shoes & Footwear",
-    image: "../public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 6,
     name: "Fashion & Apparel",
-    image: "../public/categoryone.png",
+    image: "/categoryone.png",
   },
 ];
 
@@ -35,10 +35,10 @@ const products = [
   {
     id: 1,
     category: "Crockery & Dinnerware",
-    name: " Dinner Set",
+    name: "Dinner Set",
     price: 899,
     originalPrice: 1000,
-    image: "../public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ const products = [
     name: "Wireless Headphone",
     price: 899,
     originalPrice: 1000,
-    image: "../public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 3,
@@ -54,7 +54,7 @@ const products = [
     name: "Notebook Set",
     price: 899,
     originalPrice: 1000,
-    image: "../public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 4,
@@ -62,15 +62,15 @@ const products = [
     name: "Running Shoes",
     price: 699,
     originalPrice: 1000,
-    image: "../public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 5,
     category: "Crockery & Dinnerware",
-    name: " Dinner Set",
+    name: "Dinner Set",
     price: 899,
     originalPrice: 1000,
-    image: "/public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 6,
@@ -78,23 +78,23 @@ const products = [
     name: "Wireless Headphone",
     price: 899,
     originalPrice: 1000,
-    image: "/public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 7,
     category: "Stationery",
-    name: " Notebook Set",
+    name: "Notebook Set",
     price: 899,
     originalPrice: 1000,
-    image: "/public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 8,
     category: "Shoes & Footwear",
-    name: " Running Shoes",
+    name: "Running Shoes",
     price: 699,
     originalPrice: 1000,
-    image: "/public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 9,
@@ -102,7 +102,7 @@ const products = [
     name: "Dinner Set",
     price: 899,
     originalPrice: 1000,
-    image: "/public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 10,
@@ -110,15 +110,15 @@ const products = [
     name: "Wireless Headphone",
     price: 899,
     originalPrice: 1000,
-    image: "/public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 11,
     category: "Stationery",
-    name: " Notebook Set",
+    name: "Notebook Set",
     price: 899,
     originalPrice: 1000,
-    image: "/public/categoryone.png",
+    image: "/categoryone.png",
   },
   {
     id: 12,
@@ -126,7 +126,7 @@ const products = [
     name: "Running Shoes",
     price: 699,
     originalPrice: 1000,
-    image: "/public/categoryone.png",
+    image: "/categoryone.png",
   },
 ];
 
